@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VueJS Course</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+<div id="app" v-cloak>
+    {{ outputGoal() }}
+    <hr />
+    <label>First goal</label>
+    <input type="text" v-model="courseGoalA"/>
+
+    <label>Last goal</label>
+    <input type="text" v-model="courseGoalB" />
+</div>
+
+<!--<div id="app2">-->
+<!--    {{ courseGoalA }}-->
+<!--    <br />-->
+<!--    {{ courseGoalB }}-->
+<!--</div>-->
+
+<script src="https://unpkg.com/vue@3"></script>
+<script src="app.js"></script>
+</body>
+</html>
